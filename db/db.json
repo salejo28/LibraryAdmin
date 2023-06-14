@@ -1,31 +1,18 @@
 {
   "authors": [
     {
-      "name": "stephen king",
-      "bornDate": "1947-09-21",
-      "nationalityId": 237,
-      "id": 1
-    },
-    {
       "name": "mario mendoza",
-      "bornDate": "1964-01-06",
-      "nationalityId": 49,
+      "bornDate": "2023-06-14",
+      "nationalityId": 248,
       "id": 2
     }
   ],
   "books": [
     {
-      "title": "Apocalipsis",
-      "publicationDate": "1978-03-10",
-      "authorId": 1,
+      "title": "Aquelarre",
+      "publicationDate": "2023-06-14",
+      "authorId": 2,
       "id": 1
-    },
-    {
-      "title": "Desesperación",
-      "publicationDate": "2003-05-10",
-      "author": 1,
-      "id": 2,
-      "authorId": 1
     }
   ],
   "nationalities": [

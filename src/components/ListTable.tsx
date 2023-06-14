@@ -1,7 +1,6 @@
 import {
   Datagrid,
   DatagridProps,
-  FilterPayload,
   List,
   ListProps,
 } from "react-admin";

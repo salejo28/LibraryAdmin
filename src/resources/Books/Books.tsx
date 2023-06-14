@@ -1,3 +1,4 @@
+import { BulkDeleteAction } from "@/components/BulkDeleteAction";
 import { Form } from "@/components/Form";
 import { ListTable } from "@/components/ListTable";
 import { useGetFormBooks } from "@/hooks/useGetFormBook";
@@ -21,7 +22,7 @@ export const BooksList = () => {
   ];
 
   return (
-    <ListTable listProps={{ filters: bookFilters }}>
+    <ListTable listProps={{ filters: bookFilters }} datagridProps={{ bulkActionButtons: <BulkDeleteAction resource="books" /> }}>
       <TextField source="title" />
       <ReferenceField source="authorId" reference="authors">
         <TextField source="name" />

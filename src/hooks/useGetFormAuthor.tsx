@@ -1,5 +1,6 @@
 import { ICommonFormField, ICommonHookForm, INodesAuthors, INodesBooks } from "@/types";
-import { AutocompleteInput, DateInput, ReferenceInput, TextInput, minLength, required } from "react-admin";
+import { formatDate } from "@/utils/date";
+import { AutocompleteInput, DateInput, ReferenceInput, TextInput, maxValue, minLength, required } from "react-admin";
 
 export const useGetFormAuthor = (): ICommonHookForm => {
   const fields: ICommonFormField[] = [
@@ -9,7 +10,7 @@ export const useGetFormAuthor = (): ICommonHookForm => {
     },
     {
       source: "bornDate",
-      validate: [required("Born date is required"), minLength(4)]
+      validate: [required("Born date is required"), minLength(4), maxValue(formatDate())]
     },
     {
       source: "nationalityId",
@@ -36,12 +37,12 @@ export const useGetFormAuthor = (): ICommonHookForm => {
     if (typeof node === "object") {
       const ParentComponent = node.parent;
       const ChildComponent = node.child;
+      const propsChild = field.child
       return (
         <ParentComponent key={field.source} source={field.source} reference={field.reference!}>
           <ChildComponent
             validate={field.validate}
-            optionText={field.child!.optionText}
-            optionValue={field.child!.optionValue}
+            {...propsChild}
           />
         </ParentComponent>
       );

@@ -1,5 +1,5 @@
 {
-  "name": "nisum-authors-books",
+  "name": "library-admin",
   "private": true,
   "scripts": {
     "dev": "vite",

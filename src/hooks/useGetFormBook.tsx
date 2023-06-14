@@ -1,5 +1,6 @@
 import { ICommonFormField, ICommonHookForm, INodesBooks } from "@/types";
-import { AutocompleteInput, DateInput, ReferenceInput, TextInput, minLength, required } from "react-admin";
+import { formatDate } from "@/utils/date";
+import { AutocompleteInput, DateInput, ReferenceInput, TextInput, maxValue, minLength, required } from "react-admin";
 
 export const useGetFormBooks = (): ICommonHookForm => {
   const fields: ICommonFormField[] = [
@@ -9,7 +10,7 @@ export const useGetFormBooks = (): ICommonHookForm => {
     },
     {
       source: "publicationDate",
-      validate: [required("Publication date is required"), minLength(4)]
+      validate: [required("Publication date is required"), minLength(4), maxValue(formatDate())]
     },
     {
       source: "authorId",

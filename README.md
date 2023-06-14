@@ -1,11 +1,36 @@
-# nisum-authors-books
+# Library Admin
 
-## Installation
+Library Admin is an application that allows you to manage authors and their books, it is a basic but intuitive administrator.
+
+## Clone the repository
+```sh
+git clone https://github.com/salejo28/LibraryAdmin.git
+```
+
+## Create .env file
+Create the **.env** file and set this variable
+
+```sh
+VITE_JSON_SERVER_URL=http://localhost:3000
+```
+
+## Installing dependencies
 
 Install the application dependencies by running:
 
 ```sh
 npm install
+```
+
+## Init json server
+If you do not have json server 
+```sh
+npm i -g json-server
+```
+
+Execute the following command
+```sh
+json-server -w db/db.json
 ```
 
 ## Development
@@ -24,9 +49,34 @@ Build the application in production mode by running:
 npm run build
 ```
 
-## DataProvider
+Run the production app
+```sh
+npm run serve
+```
 
-The included data provider use [ra-data-json-server](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-json-server). It fits REST APIs powered by [JSON Server](https://github.com/typicode/json-server), such as [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+## Things to improve
 
-You'll find an `.env` file at the project root that includes a `VITE_JSON_SERVER_URL` variable. Set it to the URL of your backend. By default, we set it to targets [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+One of the things to improve is that when deleting an author, at the moment of deleting all the books associated to it, I made a function to do it, it does it but nevertheless it gives an error when doing it. The function is
 
+```js
+ const handleDelete = async () => {
+    if (resource === "authors") {
+      await Promise.all(
+        selectedIds.map(async (selected_id) => {
+          const { data } = await dataProvider.getList("books", {
+            filter: { authorId: selected_id },
+            pagination: undefined as unknown as PaginationPayload,
+            sort: undefined as unknown as SortPayload,
+          });
+
+          const books_ids = data.map((d) => d.id);
+          await dataProvider.deleteMany("books", {
+            ids: books_ids,
+          });
+        })
+      );
+    }
+  };
+```
+
+As the function getList receives obligatorily the properties pagination and sort, but all the elements related to author were needed, so I passed them as undefined but at the moment of executing it gives an error that it is not possible to receive undefined.
