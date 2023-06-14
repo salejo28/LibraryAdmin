@@ -1,0 +1,1029 @@
+{
+  "authors": [
+    {
+      "name": "stephen king",
+      "bornDate": "1947-09-21",
+      "nationalityId": 237,
+      "id": 1
+    },
+    {
+      "name": "mario mendoza",
+      "bornDate": "1964-01-06",
+      "nationalityId": 49,
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "title": "Apocalipsis",
+      "publicationDate": "1978-03-10",
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "title": "Desesperación",
+      "publicationDate": "2003-05-10",
+      "author": 1,
+      "id": 2,
+      "authorId": 1
+    }
+  ],
+  "nationalities": [
+    {
+      "id": 1,
+      "nationality": "Afghan"
+    },
+    {
+      "id": 2,
+      "nationality": "Åland Island"
+    },
+    {
+      "id": 3,
+      "nationality": "Albanian"
+    },
+    {
+      "id": 4,
+      "nationality": "Algerian"
+    },
+    {
+      "id": 5,
+      "nationality": "American Samoan"
+    },
+    {
+      "id": 6,
+      "nationality": "Andorran"
+    },
+    {
+      "id": 7,
+      "nationality": "Angolan"
+    },
+    {
+      "id": 8,
+      "nationality": "Anguillan"
+    },
+    {
+      "id": 9,
+      "nationality": "Antarctic"
+    },
+    {
+      "id": 10,
+      "nationality": "Antiguan or Barbudan"
+    },
+    {
+      "id": 11,
+      "nationality": "Argentine"
+    },
+    {
+      "id": 12,
+      "nationality": "Armenian"
+    },
+    {
+      "id": 13,
+      "nationality": "Aruban"
+    },
+    {
+      "id": 14,
+      "nationality": "Australian"
+    },
+    {
+      "id": 15,
+      "nationality": "Austrian"
+    },
+    {
+      "id": 16,
+      "nationality": "Azerbaijani, Azeri"
+    },
+    {
+      "id": 17,
+      "nationality": "Bahamian"
+    },
+    {
+      "id": 18,
+      "nationality": "Bahraini"
+    },
+    {
+      "id": 19,
+      "nationality": "Bangladeshi"
+    },
+    {
+      "id": 20,
+      "nationality": "Barbadian"
+    },
+    {
+      "id": 21,
+      "nationality": "Belarusian"
+    },
+    {
+      "id": 22,
+      "nationality": "Belgian"
+    },
+    {
+      "id": 23,
+      "nationality": "Belizean"
+    },
+    {
+      "id": 24,
+      "nationality": "Beninese, Beninois"
+    },
+    {
+      "id": 25,
+      "nationality": "Bermudian, Bermudan"
+    },
+    {
+      "id": 26,
+      "nationality": "Bhutanese"
+    },
+    {
+      "id": 27,
+      "nationality": "Bolivian"
+    },
+    {
+      "id": 28,
+      "nationality": "Bonaire"
+    },
+    {
+      "id": 29,
+      "nationality": "Bosnian or Herzegovinian"
+    },
+    {
+      "id": 30,
+      "nationality": "Motswana, Botswanan"
+    },
+    {
+      "id": 31,
+      "nationality": "Bouvet Island"
+    },
+    {
+      "id": 32,
+      "nationality": "Brazilian"
+    },
+    {
+      "id": 33,
+      "nationality": "BIOT"
+    },
+    {
+      "id": 34,
+      "nationality": "Bruneian"
+    },
+    {
+      "id": 35,
+      "nationality": "Bulgarian"
+    },
+    {
+      "id": 36,
+      "nationality": "Burkinabé"
+    },
+    {
+      "id": 37,
+      "nationality": "Burundian"
+    },
+    {
+      "id": 38,
+      "nationality": "Cabo Verdean"
+    },
+    {
+      "id": 39,
+      "nationality": "Cambodian"
+    },
+    {
+      "id": 40,
+      "nationality": "Cameroonian"
+    },
+    {
+      "id": 41,
+      "nationality": "Canadian"
+    },
+    {
+      "id": 42,
+      "nationality": "Caymanian"
+    },
+    {
+      "id": 43,
+      "nationality": "Central African"
+    },
+    {
+      "id": 44,
+      "nationality": "Chadian"
+    },
+    {
+      "id": 45,
+      "nationality": "Chilean"
+    },
+    {
+      "id": 46,
+      "nationality": "Chinese"
+    },
+    {
+      "id": 47,
+      "nationality": "Christmas Island"
+    },
+    {
+      "id": 48,
+      "nationality": "Cocos Island"
+    },
+    {
+      "id": 49,
+      "nationality": "Colombian"
+    },
+    {
+      "id": 50,
+      "nationality": "Comoran, Comorian"
+    },
+    {
+      "id": 51,
+      "nationality": "Congolese"
+    },
+    {
+      "id": 52,
+      "nationality": "Congolese"
+    },
+    {
+      "id": 53,
+      "nationality": "Cook Island"
+    },
+    {
+      "id": 54,
+      "nationality": "Costa Rican"
+    },
+    {
+      "id": 55,
+      "nationality": "Ivorian"
+    },
+    {
+      "id": 56,
+      "nationality": "Croatian"
+    },
+    {
+      "id": 57,
+      "nationality": "Cuban"
+    },
+    {
+      "id": 58,
+      "nationality": "Curaçaoan"
+    },
+    {
+      "id": 59,
+      "nationality": "Cypriot"
+    },
+    {
+      "id": 60,
+      "nationality": "Czech"
+    },
+    {
+      "id": 61,
+      "nationality": "Danish"
+    },
+    {
+      "id": 62,
+      "nationality": "Djiboutian"
+    },
+    {
+      "id": 63,
+      "nationality": "Dominican"
+    },
+    {
+      "id": 64,
+      "nationality": "Dominican"
+    },
+    {
+      "id": 65,
+      "nationality": "Ecuadorian"
+    },
+    {
+      "id": 66,
+      "nationality": "Egyptian"
+    },
+    {
+      "id": 67,
+      "nationality": "Salvadoran"
+    },
+    {
+      "id": 68,
+      "nationality": "Equatorial Guinean, Equatoguinean"
+    },
+    {
+      "id": 69,
+      "nationality": "Eritrean"
+    },
+    {
+      "id": 70,
+      "nationality": "Estonian"
+    },
+    {
+      "id": 71,
+      "nationality": "Ethiopian"
+    },
+    {
+      "id": 72,
+      "nationality": "Falkland Island"
+    },
+    {
+      "id": 73,
+      "nationality": "Faroese"
+    },
+    {
+      "id": 74,
+      "nationality": "Fijian"
+    },
+    {
+      "id": 75,
+      "nationality": "Finnish"
+    },
+    {
+      "id": 76,
+      "nationality": "French"
+    },
+    {
+      "id": 77,
+      "nationality": "French Guianese"
+    },
+    {
+      "id": 78,
+      "nationality": "French Polynesian"
+    },
+    {
+      "id": 79,
+      "nationality": "French Southern Territories"
+    },
+    {
+      "id": 80,
+      "nationality": "Gabonese"
+    },
+    {
+      "id": 81,
+      "nationality": "Gambian"
+    },
+    {
+      "id": 82,
+      "nationality": "Georgian"
+    },
+    {
+      "id": 83,
+      "nationality": "German"
+    },
+    {
+      "id": 84,
+      "nationality": "Ghanaian"
+    },
+    {
+      "id": 85,
+      "nationality": "Gibraltar"
+    },
+    {
+      "id": 86,
+      "nationality": "Greek, Hellenic"
+    },
+    {
+      "id": 87,
+      "nationality": "Greenlandic"
+    },
+    {
+      "id": 88,
+      "nationality": "Grenadian"
+    },
+    {
+      "id": 89,
+      "nationality": "Guadeloupe"
+    },
+    {
+      "id": 90,
+      "nationality": "Guamanian, Guambat"
+    },
+    {
+      "id": 91,
+      "nationality": "Guatemalan"
+    },
+    {
+      "id": 92,
+      "nationality": "Channel Island"
+    },
+    {
+      "id": 93,
+      "nationality": "Guinean"
+    },
+    {
+      "id": 94,
+      "nationality": "Bissau-Guinean"
+    },
+    {
+      "id": 95,
+      "nationality": "Guyanese"
+    },
+    {
+      "id": 96,
+      "nationality": "Haitian"
+    },
+    {
+      "id": 97,
+      "nationality": "Heard Island or McDonald Islands"
+    },
+    {
+      "id": 98,
+      "nationality": "Vatican"
+    },
+    {
+      "id": 99,
+      "nationality": "Honduran"
+    },
+    {
+      "id": 100,
+      "nationality": "Hong Kong, Hong Kongese"
+    },
+    {
+      "id": 101,
+      "nationality": "Hungarian, Magyar"
+    },
+    {
+      "id": 102,
+      "nationality": "Icelandic"
+    },
+    {
+      "id": 103,
+      "nationality": "Indian"
+    },
+    {
+      "id": 104,
+      "nationality": "Indonesian"
+    },
+    {
+      "id": 105,
+      "nationality": "Iranian, Persian"
+    },
+    {
+      "id": 106,
+      "nationality": "Iraqi"
+    },
+    {
+      "id": 107,
+      "nationality": "Irish"
+    },
+    {
+      "id": 108,
+      "nationality": "Manx"
+    },
+    {
+      "id": 109,
+      "nationality": "Israeli"
+    },
+    {
+      "id": 110,
+      "nationality": "Italian"
+    },
+    {
+      "id": 111,
+      "nationality": "Jamaican"
+    },
+    {
+      "id": 112,
+      "nationality": "Japanese"
+    },
+    {
+      "id": 113,
+      "nationality": "Channel Island"
+    },
+    {
+      "id": 114,
+      "nationality": "Jordanian"
+    },
+    {
+      "id": 115,
+      "nationality": "Kazakhstani, Kazakh"
+    },
+    {
+      "id": 116,
+      "nationality": "Kenyan"
+    },
+    {
+      "id": 117,
+      "nationality": "I-Kiribati"
+    },
+    {
+      "id": 118,
+      "nationality": "North Korean"
+    },
+    {
+      "id": 119,
+      "nationality": "South Korean"
+    },
+    {
+      "id": 120,
+      "nationality": "Kuwaiti"
+    },
+    {
+      "id": 121,
+      "nationality": "Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz"
+    },
+    {
+      "id": 122,
+      "nationality": "Lao, Laotian"
+    },
+    {
+      "id": 123,
+      "nationality": "Latvian"
+    },
+    {
+      "id": 124,
+      "nationality": "Lebanese"
+    },
+    {
+      "id": 125,
+      "nationality": "Basotho"
+    },
+    {
+      "id": 126,
+      "nationality": "Liberian"
+    },
+    {
+      "id": 127,
+      "nationality": "Libyan"
+    },
+    {
+      "id": 128,
+      "nationality": "Liechtenstein"
+    },
+    {
+      "id": 129,
+      "nationality": "Lithuanian"
+    },
+    {
+      "id": 130,
+      "nationality": "Luxembourg, Luxembourgish"
+    },
+    {
+      "id": 131,
+      "nationality": "Macanese, Chinese"
+    },
+    {
+      "id": 132,
+      "nationality": "Macedonian"
+    },
+    {
+      "id": 133,
+      "nationality": "Malagasy"
+    },
+    {
+      "id": 134,
+      "nationality": "Malawian"
+    },
+    {
+      "id": 135,
+      "nationality": "Malaysian"
+    },
+    {
+      "id": 136,
+      "nationality": "Maldivian"
+    },
+    {
+      "id": 137,
+      "nationality": "Malian, Malinese"
+    },
+    {
+      "id": 138,
+      "nationality": "Maltese"
+    },
+    {
+      "id": 139,
+      "nationality": "Marshallese"
+    },
+    {
+      "id": 140,
+      "nationality": "Martiniquais, Martinican"
+    },
+    {
+      "id": 141,
+      "nationality": "Mauritanian"
+    },
+    {
+      "id": 142,
+      "nationality": "Mauritian"
+    },
+    {
+      "id": 143,
+      "nationality": "Mahoran"
+    },
+    {
+      "id": 144,
+      "nationality": "Mexican"
+    },
+    {
+      "id": 145,
+      "nationality": "Micronesian"
+    },
+    {
+      "id": 146,
+      "nationality": "Moldovan"
+    },
+    {
+      "id": 147,
+      "nationality": "Monégasque, Monacan"
+    },
+    {
+      "id": 148,
+      "nationality": "Mongolian"
+    },
+    {
+      "id": 149,
+      "nationality": "Montenegrin"
+    },
+    {
+      "id": 150,
+      "nationality": "Montserratian"
+    },
+    {
+      "id": 151,
+      "nationality": "Moroccan"
+    },
+    {
+      "id": 152,
+      "nationality": "Mozambican"
+    },
+    {
+      "id": 153,
+      "nationality": "Burmese"
+    },
+    {
+      "id": 154,
+      "nationality": "Namibian"
+    },
+    {
+      "id": 155,
+      "nationality": "Nauruan"
+    },
+    {
+      "id": 156,
+      "nationality": "Nepali, Nepalese"
+    },
+    {
+      "id": 157,
+      "nationality": "Dutch, Netherlandic"
+    },
+    {
+      "id": 158,
+      "nationality": "New Caledonian"
+    },
+    {
+      "id": 159,
+      "nationality": "New Zealand, NZ"
+    },
+    {
+      "id": 160,
+      "nationality": "Nicaraguan"
+    },
+    {
+      "id": 161,
+      "nationality": "Nigerien"
+    },
+    {
+      "id": 162,
+      "nationality": "Nigerian"
+    },
+    {
+      "id": 163,
+      "nationality": "Niuean"
+    },
+    {
+      "id": 164,
+      "nationality": "Norfolk Island"
+    },
+    {
+      "id": 165,
+      "nationality": "Northern Marianan"
+    },
+    {
+      "id": 166,
+      "nationality": "Norwegian"
+    },
+    {
+      "id": 167,
+      "nationality": "Omani"
+    },
+    {
+      "id": 168,
+      "nationality": "Pakistani"
+    },
+    {
+      "id": 169,
+      "nationality": "Palauan"
+    },
+    {
+      "id": 170,
+      "nationality": "Palestinian"
+    },
+    {
+      "id": 171,
+      "nationality": "Panamanian"
+    },
+    {
+      "id": 172,
+      "nationality": "Papua New Guinean, Papuan"
+    },
+    {
+      "id": 173,
+      "nationality": "Paraguayan"
+    },
+    {
+      "id": 174,
+      "nationality": "Peruvian"
+    },
+    {
+      "id": 175,
+      "nationality": "Philippine, Filipino"
+    },
+    {
+      "id": 176,
+      "nationality": "Pitcairn Island"
+    },
+    {
+      "id": 177,
+      "nationality": "Polish"
+    },
+    {
+      "id": 178,
+      "nationality": "Portuguese"
+    },
+    {
+      "id": 179,
+      "nationality": "Puerto Rican"
+    },
+    {
+      "id": 180,
+      "nationality": "Qatari"
+    },
+    {
+      "id": 181,
+      "nationality": "Réunionese, Réunionnais"
+    },
+    {
+      "id": 182,
+      "nationality": "Romanian"
+    },
+    {
+      "id": 183,
+      "nationality": "Russian"
+    },
+    {
+      "id": 184,
+      "nationality": "Rwandan"
+    },
+    {
+      "id": 185,
+      "nationality": "Barthélemois"
+    },
+    {
+      "id": 186,
+      "nationality": "Saint Helenian"
+    },
+    {
+      "id": 187,
+      "nationality": "Kittitian or Nevisian"
+    },
+    {
+      "id": 188,
+      "nationality": "Saint Lucian"
+    },
+    {
+      "id": 189,
+      "nationality": "Saint-Martinoise"
+    },
+    {
+      "id": 190,
+      "nationality": "Saint-Pierrais or Miquelonnais"
+    },
+    {
+      "id": 191,
+      "nationality": "Saint Vincentian, Vincentian"
+    },
+    {
+      "id": 192,
+      "nationality": "Samoan"
+    },
+    {
+      "id": 193,
+      "nationality": "Sammarinese"
+    },
+    {
+      "id": 194,
+      "nationality": "São Toméan"
+    },
+    {
+      "id": 195,
+      "nationality": "Saudi, Saudi Arabian"
+    },
+    {
+      "id": 196,
+      "nationality": "Senegalese"
+    },
+    {
+      "id": 197,
+      "nationality": "Serbian"
+    },
+    {
+      "id": 198,
+      "nationality": "Seychellois"
+    },
+    {
+      "id": 199,
+      "nationality": "Sierra Leonean"
+    },
+    {
+      "id": 200,
+      "nationality": "Singaporean"
+    },
+    {
+      "id": 201,
+      "nationality": "Sint Maarten"
+    },
+    {
+      "id": 202,
+      "nationality": "Slovak"
+    },
+    {
+      "id": 203,
+      "nationality": "Slovenian, Slovene"
+    },
+    {
+      "id": 204,
+      "nationality": "Solomon Island"
+    },
+    {
+      "id": 205,
+      "nationality": "Somali, Somalian"
+    },
+    {
+      "id": 206,
+      "nationality": "South African"
+    },
+    {
+      "id": 207,
+      "nationality": "South Georgia or South Sandwich Islands"
+    },
+    {
+      "id": 208,
+      "nationality": "South Sudanese"
+    },
+    {
+      "id": 209,
+      "nationality": "Spanish"
+    },
+    {
+      "id": 210,
+      "nationality": "Sri Lankan"
+    },
+    {
+      "id": 211,
+      "nationality": "Sudanese"
+    },
+    {
+      "id": 212,
+      "nationality": "Surinamese"
+    },
+    {
+      "id": 213,
+      "nationality": "Svalbard"
+    },
+    {
+      "id": 214,
+      "nationality": "Swazi"
+    },
+    {
+      "id": 215,
+      "nationality": "Swedish"
+    },
+    {
+      "id": 216,
+      "nationality": "Swiss"
+    },
+    {
+      "id": 217,
+      "nationality": "Syrian"
+    },
+    {
+      "id": 218,
+      "nationality": "Chinese, Taiwanese"
+    },
+    {
+      "id": 219,
+      "nationality": "Tajikistani"
+    },
+    {
+      "id": 220,
+      "nationality": "Tanzanian"
+    },
+    {
+      "id": 221,
+      "nationality": "Thai"
+    },
+    {
+      "id": 222,
+      "nationality": "Timorese"
+    },
+    {
+      "id": 223,
+      "nationality": "Togolese"
+    },
+    {
+      "id": 224,
+      "nationality": "Tokelauan"
+    },
+    {
+      "id": 225,
+      "nationality": "Tongan"
+    },
+    {
+      "id": 226,
+      "nationality": "Trinidadian or Tobagonian"
+    },
+    {
+      "id": 227,
+      "nationality": "Tunisian"
+    },
+    {
+      "id": 228,
+      "nationality": "Turkish"
+    },
+    {
+      "id": 229,
+      "nationality": "Turkmen"
+    },
+    {
+      "id": 230,
+      "nationality": "Turks and Caicos Island"
+    },
+    {
+      "id": 231,
+      "nationality": "Tuvaluan"
+    },
+    {
+      "id": 232,
+      "nationality": "Ugandan"
+    },
+    {
+      "id": 233,
+      "nationality": "Ukrainian"
+    },
+    {
+      "id": 234,
+      "nationality": "Emirati, Emirian, Emiri"
+    },
+    {
+      "id": 235,
+      "nationality": "British, UK"
+    },
+    {
+      "id": 236,
+      "nationality": "American"
+    },
+    {
+      "id": 237,
+      "nationality": "American"
+    },
+    {
+      "id": 238,
+      "nationality": "Uruguayan"
+    },
+    {
+      "id": 239,
+      "nationality": "Uzbekistani, Uzbek"
+    },
+    {
+      "id": 240,
+      "nationality": "Ni-Vanuatu, Vanuatuan"
+    },
+    {
+      "id": 241,
+      "nationality": "Venezuelan"
+    },
+    {
+      "id": 242,
+      "nationality": "Vietnamese"
+    },
+    {
+      "id": 243,
+      "nationality": "British Virgin Island"
+    },
+    {
+      "id": 244,
+      "nationality": "U.S. Virgin Island"
+    },
+    {
+      "id": 245,
+      "nationality": "Wallis and Futuna, Wallisian or Futunan"
+    },
+    {
+      "id": 246,
+      "nationality": "Sahrawi, Sahrawian, Sahraouian"
+    },
+    {
+      "id": 247,
+      "nationality": "Yemeni"
+    },
+    {
+      "id": 248,
+      "nationality": "Zambian"
+    },
+    {
+      "id": 249,
+      "nationality": "Zimbabwean"
+    }
+  ]
+}
